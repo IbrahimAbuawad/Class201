@@ -8,6 +8,7 @@
 
 * {
     box-sizing: border-box;
+    transition: all ease-in-out 0.2s ;
 }
 
 #icon {
@@ -51,7 +52,7 @@ ul {
     margin-right: 20px;
 }
 
-li {
+ul li {
     list-style: none;
     display: inline;
 }
@@ -73,6 +74,7 @@ header {
 footer {
     text-align: center;
     margin: 20px auto;
+    background-color: #edf2f3;
 }
 
 #myName {
@@ -86,3 +88,110 @@ footer {
 .clear {
     clear: both;
 }
+.divPlaces{
+    height: 300px;
+}
+
+.divPlaces li{
+float: left;
+width: 40%;
+font-size: larger;
+padding: 50px 10px;
+max-height: 300px;
+font-weight: bold;
+
+
+}
+.divPlaces li p{
+
+color: #f13c24;
+
+font-weight:700;
+}
+.divPlaces img{
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 20px;
+    box-shadow: -2px -2px 1px 1px;
+}
+
+.container button {
+    display: inline-block;
+    margin :20px 30px;
+    padding: 10px 20px;
+    background-color: #be1515 ;
+    color: rgb(255, 255, 255);
+}
+
+.container button:hover{
+    background-color:rgb(238, 77, 77);
+    color: rgb(27, 26, 26);
+    cursor: pointer;
+}
+
+input{
+    background-color: #29070a2c;
+    color:#f81d1d;
+    border: none;
+    padding: 5px;
+    }
+    textarea{
+        background-color: #29070a2c;
+        color:#f81d1d;
+        border: none;
+    }
+    label{
+        color:#f81d1d9d;
+    }
+    footer button{
+         margin :20px 30px;
+    padding: 10px 20px;
+    background-color: #be1515 ;
+    color: rgb(255, 255, 255);
+    }
+
+    footer button:hover{
+        background-color:rgb(238, 77, 77);
+        color: rgb(27, 26, 26);
+        cursor: pointer;
+    }
+
+    #headerContent {
+        background-image: url('https://wallpapertag.com/wallpaper/full/b/2/2/508413-beautiful-red-and-white-backgrounds-1920x1200.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        text-align: center;
+        padding: 150px;
+    }
+
+    #headerContent span{
+        font-weight: normal;
+        font-size:30px;
+        color: silver;
+        margin-bottom:0px ;
+    }
+    #headerContent h4{
+        font-weight: normal;
+        font-size:30px;
+        margin-bottom:0px ;
+    }
+    #headerContent p{
+
+font-family:serif;
+font-size: 15px;
+margin-top: 6px;
+    }
+    #headerContent button{
+margin-top: 15px;
+padding: 10px 20px;
+background-color: #be1515 ;
+color: rgb(255, 255, 255);
+    }
+
+    #headerContent button:hover{
+        background-color:rgb(238, 77, 77);
+        color: rgb(27, 26, 26);
+        cursor: pointer;}
