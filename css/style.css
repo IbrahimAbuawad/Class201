@@ -46,13 +46,13 @@ h1 {
     padding: 20px 20px;
 }
 
-ul {
+.nav ul {
     color: rgb(179, 169, 171);
     font-size: larger;
     margin-right: 20px;
 }
 
-ul li {
+.nav ul li {
     list-style: none;
     display: inline;
 }
@@ -67,15 +67,15 @@ header {
     font-size: larger;
     font-weight: bold;
     color: #a01818;
+    
+    text-align: center;
+}
+.containerAbove{
     background-color: rgba(228, 228, 206, 0.5);
     text-align: center;
 }
 
-footer {
-    text-align: center;
-    margin: 20px auto;
-    background-color: #edf2f3;
-}
+
 
 #myName {
     margin-right: 20px;
@@ -116,13 +116,15 @@ font-weight:700;
     box-shadow: -2px -2px 1px 1px;
 }
 
-.container button {
+.containerAbove button {
     display: inline-block;
-    margin :20px 30px;
+    margin :12px 15px;
     padding: 10px 20px;
     background-color: #be1515 ;
     color: rgb(255, 255, 255);
+    text-align: center;
 }
+
 
 .container button:hover{
     background-color:rgb(238, 77, 77);
@@ -130,19 +132,28 @@ font-weight:700;
     cursor: pointer;
 }
 
+footer {
+    text-align: center;
+    margin: 20px auto;
+    background-color: #eceaeac4;
+}
+
 input{
-    background-color: #29070a2c;
+    background-color: #f7d0d3ce;
     color:#f81d1d;
     border: none;
     padding: 5px;
+    margin :5px auto;
+
     }
     textarea{
-        background-color: #29070a2c;
+        background-color: #f7d0d3ce;
         color:#f81d1d;
         border: none;
     }
     label{
-        color:#f81d1d9d;
+        color:#5e0909bb;
+        
     }
     footer button{
          margin :20px 30px;
@@ -195,3 +206,26 @@ color: rgb(255, 255, 255);
         background-color:rgb(238, 77, 77);
         color: rgb(27, 26, 26);
         cursor: pointer;}
+
+        main ul{
+            margin-top: 0px;
+        }
+        main ul li {
+            
+            color: rgb(26, 17, 17);
+            margin-right: 70px;
+            font-weight: 700;
+            display: inline;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            ;
+            font-size: 17px;
+   
+        }
+        
+        #work{
+            word-spacing: 5px;
+            font-weight:500;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            ;
+            font-size: 30px;
+        }
