@@ -5,20 +5,17 @@ let guessArray = [2, 4, 6, 8, 10];
 
 let userName = prompt('What is your name ?');
 alert('welcome to my webpage ' + userName);
-console.log('your name is ' + userName);
 
-// this is COFFEE Question .................................................................
-// let coffeeFunc = function(){
-function quesFun(){
+
+
+function quesFun() {
   let coffee = prompt('Do you like coffee ( Yes / No ) ?');
-  while(coffee.toLowerCase()!=='yes'&& coffee.toLowerCase()!=='no'){
+  while (coffee.toLowerCase() !== 'yes' && coffee.toLowerCase() !== 'no') {
     coffee = prompt('Do you like coffee ( Yes / No ) ?');
   }
-  console.log(coffee);
 
   if (coffee.toLowerCase() === 'yes') {
 
-    console.log('We have the best Coffee in jordan');
     alert('We have the best Coffee in jordan');
     correctResult = correctResult + 1;
   }
@@ -28,29 +25,18 @@ function quesFun(){
 }
 quesFun();
 
-// };
-
-// coffeeFunc();
 
 
 
 
-
-
-
-// this is TRAVEL Question ................................................................
-// let travelFunc = function(){
-
-function travelQues(){
+function travelQues() {
   let travel = prompt('Do you like to travel ( Yes / No ) ?');
-  while(travel.toLowerCase()!=='yes' && travel.toLowerCase()!=='no'){
+  while (travel.toLowerCase() !== 'yes' && travel.toLowerCase() !== 'no') {
     travel = prompt('Do you like to travel ( Yes / No ) ?');
   }
-  console.log(travel);
 
   switch (travel.toLowerCase()) {
   case 'yes':
-    console.log('Good choice i think thats why you came here');
     alert('Good choice i think thats why you came here');
     correctResult = correctResult + 1;
     break;
@@ -61,23 +47,16 @@ function travelQues(){
 }
 travelQues();
 
-// };
-// travelFunc();
 
 
 
-// this is EXPENSIVE Question ..............................................................
-// let expensiveTravelFunc = function(){
-
-function expTravel(){
+function expTravel() {
   let expensiveTravel = prompt('DO you thing traveling expensive for you ( Yes / No ) ?');
-  while(expensiveTravel.toLowerCase()!=='yes' && expensiveTravel.toLowerCase()!=='no'){
+  while (expensiveTravel.toLowerCase() !== 'yes' && expensiveTravel.toLowerCase() !== 'no') {
     expensiveTravel = prompt('DO you thing traveling expensive for you ( Yes / No ) ?');
   }
-  console.log(expensiveTravel);
   switch (expensiveTravel.toLowerCase()) {
   case 'yes':
-    console.log('its ok we will give you discount for this');
     alert('its ok we will give you discount for this');
     correctResult = correctResult + 1;
     break;
@@ -88,24 +67,18 @@ function expTravel(){
 }
 expTravel();
 
-// };
-// expensiveTravelFunc();
 
 
-// this is AGE Question .....................................................................
-// let marriedFunc = function(){
 
-function marriedQues(){
+function marriedQues() {
   let married = prompt('Are you married ( Yes / No ) ?');
-  while(married.toLowerCase()!=='yes' && married.toLowerCase()!=='no'){
+  while (married.toLowerCase() !== 'yes' && married.toLowerCase() !== 'no') {
     married = prompt('Are you married ( Yes / No ) ?');
   }
-  console.log(married);
 
 
   switch (married.toLowerCase()) {
   case 'yes':
-    console.log('Good we will sugest to you romance places to go with you partner');
     alert('Good we will sugest to you romance places to go with you partner');
     correctResult = correctResult + 1;
     break;
@@ -115,25 +88,18 @@ function marriedQues(){
   }
 }
 marriedQues();
-// };
-
-// marriedFunc();
 
 
 
-// this is RATE Question ....................................................................
-// let pageRateFunc = function(){
 
-function pageQues(){
+function pageQues() {
   let pageRate = prompt('Do you want to give "5/5" rating this page ? ( Yes / No ) ');
-  while(pageRate.toLowerCase()!=='yes' && pageRate.toLowerCase()!=='no'){
+  while (pageRate.toLowerCase() !== 'yes' && pageRate.toLowerCase() !== 'no') {
     pageRate = prompt('Do you want to give "5/5" rating this page ? ( Yes / No ) ');
   }
-  console.log(pageRate);
 
   switch (pageRate.toLowerCase()) {
   case 'yes':
-    console.log('Your are AWESOME');
     alert('Your are AWESOME');
     correctResult = correctResult + 1;
     break;
@@ -143,17 +109,11 @@ function pageQues(){
   }
 }
 pageQues();
-// };
-
-// pageRateFunc();
 
 
 
 
-
-// this is 6th Question  ..............................................................
-// let guessNumFunc = function(){
-function guessQues(){
+function guessQues() {
   let guessNumber;
 
   let correctNum = 5;
@@ -165,7 +125,6 @@ function guessQues(){
     guessNumber = prompt('This is attempt number ' + attempt + ' Guess the right number between 1 to 10 ?');
     if (Number(guessNumber) === correctNum) {
       alert('PERFECT your answer is Correct " its 5 " ');
-      console.log('PERFECT your answer is Correct " 5 " ');
       correctResult = correctResult + 1;
       break;
     }
@@ -193,15 +152,10 @@ function guessQues(){
 }
 guessQues();
 
-// };
-
-// guessNumFunc();
 
 
-// this is 7th Question  ..............................................................
 
-// let guessArrayFunc = function(){
-function numbQues(){
+function numbQues() {
   let guessMultipleNumber;
   let a;
   let attemptQ7 = 1;
@@ -216,7 +170,6 @@ function numbQues(){
     while ((guessArray.length - 1) > arrayIndex) {
       if (guessArray[arrayIndex] === Number(guessMultipleNumber)) {
         alert('your answer is correct ' + guessArray[arrayIndex] + ' is correct answer');
-        console.log('your answer is correct ' + guessArray[arrayIndex] + ' is correct answer');
         correctResult = correctResult + 1;
         break;
       }
@@ -228,16 +181,11 @@ function numbQues(){
 }
 numbQues();
 
-// };
 
-// guessArrayFunc();
-
-// Result Function ...................................................................
 
 let resultFunc = function () {
   alert('your Results ' + correctResult + '/7' + ' congratulation');
 };
 
-console.log((resultFunc));
 
-alert('your Results ' + correctResult + '/7' + ' congratulation');
+resultFunc();
