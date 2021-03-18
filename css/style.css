@@ -11,6 +11,7 @@
     transition: all ease-in-out 0.2s ;
 }
 
+
 #icon {
     display: inline;
     float: left;
@@ -53,7 +54,7 @@ h1 {
 }
 
 .nav ul li {
-    list-style: none;
+    
     display: inline;
 }
 
@@ -125,7 +126,13 @@ font-weight:700;
     text-align: center;
 }
 
-
+.containerAbove button:hover{
+    
+        background-color:rgb(238, 77, 77);
+        color: rgb(27, 26, 26);
+        cursor: pointer;
+    
+}
 .container button:hover{
     background-color:rgb(238, 77, 77);
     color: rgb(27, 26, 26);
@@ -209,16 +216,20 @@ color: rgb(255, 255, 255);
 
         main ul{
             margin-top: 0px;
+            
         }
         main ul li {
             
             color: rgb(26, 17, 17);
-            margin-right: 70px;
-            font-weight: 700;
-            display: inline;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            margin: 1px auto;
+            
+            list-style-position:inside;
+            font-weight: 600;
+            
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
             ;
             font-size: 17px;
+            
    
         }
         
