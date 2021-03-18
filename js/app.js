@@ -240,4 +240,4 @@ let resultFunc = function () {
 
 console.log((resultFunc));
 
-alert('your Results ' + correctResult + '/7' + ' congratulation');
+resultFunc();
